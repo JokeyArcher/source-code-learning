@@ -25,10 +25,11 @@
 
 package java.util;
 
+import sun.misc.SharedSecrets;
+
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
-import sun.misc.SharedSecrets;
 
 /**
  * Resizable-array implementation of the <tt>List</tt> interface.  Implements
@@ -110,12 +111,12 @@ public class ArrayList<E> extends AbstractList<E>
     private static final long serialVersionUID = 8683452581122892189L;
 
     /**
-     * Default initial capacity.
+     * 默认容量
      */
     private static final int DEFAULT_CAPACITY = 10;
 
     /**
-     * Shared empty array instance used for empty instances.
+     * 用于空实例的共享空数组实例。
      */
     private static final Object[] EMPTY_ELEMENTDATA = {};
 
