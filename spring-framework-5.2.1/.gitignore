@@ -41,3 +41,6 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+
+!spring-aop/src/main/java/org/springframework/aop/target
+!spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/target
