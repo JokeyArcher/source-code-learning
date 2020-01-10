@@ -44,3 +44,4 @@ atlassian-ide-plugin.xml
 
 !spring-aop/src/main/java/org/springframework/aop/target
 !spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/target
+/*/build
